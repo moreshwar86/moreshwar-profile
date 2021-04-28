@@ -1,0 +1,119 @@
+.skills-heading{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.skills-heading1{
+    font-size: 18px;
+    margin-bottom: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+}
+
+  .skills-item {
+    width: 100%
+  }
+  
+  .skills-skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills-skills-tags > div {
+    flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    margin-bottom: 10px;
+  }
+  .skills-meter {
+    box-sizing: content-box;
+    height: 20px; /* Can be anything */
+    position: relative;
+    margin: 10px 0 20px 0; /* Just for demo spacing */
+    background: gainsboro;
+    border-radius: 25px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  }
+  .skills-meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43, 194, 83);
+    background-image: linear-gradient(
+      center bottom,
+      rgb(43, 194, 83) 37%,
+      rgb(84, 240, 84) 69%
+    );
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+  }
+  .skills-meter > span:after,
+  .skills-animate > span > span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+    z-index: 1;
+    background-size: 50px 50px;
+    animation: move 2s linear infinite;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .skills-animate > span:after {
+    display: none;
+  }
+  .red {
+        background-color: gainsboro !important;
+    }
+  .red > span {
+    background-image: linear-gradient(#f0a3a3, #f42323);
+  }
+  .blue {
+        background-color: gainsboro !important;
+    }
+    .blue > span {
+    background-image: linear-gradient(#f0a3a3, blue);
+    }
+
+    .yellow {
+        background-color: gainsboro !important;
+    }
+.yellow > span {
+background-image: linear-gradient(#f0a3a3, yellow);
+}
+  
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50px 50px;
+    }
+  }

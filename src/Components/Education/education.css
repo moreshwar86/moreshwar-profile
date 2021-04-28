@@ -1,0 +1,33 @@
+.education-heading{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.education-text-center{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.education-heading1{
+    font-size: 15px;
+    margin-bottom: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+}
+.education-text-header{
+    font-size: 15px;
+    margin-bottom: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+.list-item-main{
+    background: #eae1e1;
+}

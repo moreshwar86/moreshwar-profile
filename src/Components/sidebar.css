@@ -1,0 +1,73 @@
+.main-container{
+    height: 700px;
+    width: 300px;
+    background-color: #f2f3f7;
+    padding-top: 3em;
+    float: left;
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.text-center{
+    text-align: center;
+}
+#colorlib-aside .author-img {
+    width: 150px;
+    height: 150px;
+    margin: 0px auto 30px;
+    border-radius: 50%;
+}
+
+.author-img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(./../images/user.png)
+}
+
+#colorlib-aside #colorlib-logo {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0.5em;
+    display: block;
+    width: 100%;
+}
+
+#colorlib-aside .position {
+    display: block;
+    margin-bottom: 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#colorlib-aside #colorlib-main-menu {
+    display: block;
+    width: 100%;
+}
+
+#colorlib-aside #colorlib-main-menu {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    position: relative;
+    font-family: Quicksand, Arial, sans-serif;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    /* margin-top: -40px; */
+}
+li{
+    margin: 0px 0px 10px 0px;
+}
+#colorlib-aside .colorlib-footer {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0px 20px;
+    width: 100%;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
